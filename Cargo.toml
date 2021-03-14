@@ -1,0 +1,17 @@
+[package]
+name = "HelloRustC"
+version = "0.1.0"
+authors = ["bfu4 <bella@sleeeepyti.me>"]
+edition = "2018"
+links = "hello"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cc = "1.0"
+libc = "0.2"
+
+[[bin]]
+name = "main"
+path = "main.rs"
