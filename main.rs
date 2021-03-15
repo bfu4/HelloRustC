@@ -1,3 +1,5 @@
+#![feature(rustc_private)]
+extern crate rustc;
 
 use libc::c_char;
 use std::ffi::CStr;
